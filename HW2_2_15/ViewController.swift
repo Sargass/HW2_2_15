@@ -9,10 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ViewRedUIView: UIView!
+    @IBOutlet weak var ViewYellowUIView: UIView!
+    @IBOutlet weak var ViewGreenUIView: UIView!
+    @IBOutlet weak var StartButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("tets")
     }
 
 
