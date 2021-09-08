@@ -17,16 +17,28 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        ViewRedUIView.layer.cornerRadius = 62
-        ViewYellowUIView.layer.cornerRadius = 62
-        ViewGreenUIView.layer.cornerRadius = 62
+        ViewRedUIView.layer.cornerRadius = 67
+        ViewRedUIView.layer.opacity = 0.3
+        
+        ViewYellowUIView.layer.cornerRadius = 67
+        ViewYellowUIView.layer.opacity = 0.3
+        
+        ViewGreenUIView.layer.cornerRadius = 67
+        ViewGreenUIView.layer.opacity = 0.3
         
         StartButton.layer.cornerRadius = 15
-    
     }
     
     @IBAction func StartButtonPressed() {
+       var index = 0
         
+        switch index {
+        case index == 1:
+        case index == 2:
+        case index == 3:
+        default:
+            <#code#>
+        }
     }
     
 
