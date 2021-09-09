@@ -27,20 +27,23 @@ class ViewController: UIViewController {
         ViewGreenUIView.layer.opacity = 0.3
         
         StartButton.layer.cornerRadius = 15
+        
     }
     
     @IBAction func StartButtonPressed() {
-       var index = 0
-        
-        switch index {
-        case index == 1:
-        case index == 2:
-        case index == 3:
-        default:
-            <#code#>
+        if ViewRedUIView.layer.opacity == 0.3 && ViewYellowUIView.layer.opacity == 0.3 && ViewGreenUIView.layer.opacity == 0.3 {
+            ViewRedUIView.layer.opacity = 1
+        } else if ViewRedUIView.layer.opacity == 1 {
+            ViewRedUIView.layer.opacity = 0.3
+            ViewYellowUIView.layer.opacity = 1
+        } else if ViewYellowUIView.layer.opacity == 1 {
+            ViewYellowUIView.layer.opacity = 0.3
+            ViewGreenUIView.layer.opacity = 1
+        } else if ViewGreenUIView.layer.opacity == 1 {
+            ViewRedUIView.layer.opacity = 0.3
+            ViewYellowUIView.layer.opacity = 0.3
+            ViewGreenUIView.layer.opacity = 0.3
         }
     }
-    
 
 }
-
