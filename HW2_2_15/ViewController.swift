@@ -1,5 +1,3 @@
-//
-//  ViewController.swift
 //  HW2_2_15
 //
 //  Created by Алексей on 06.09.2021.
