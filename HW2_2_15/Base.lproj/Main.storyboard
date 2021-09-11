@@ -35,7 +35,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6g-bc-ClG" userLabel="StartButton">
-                                <rect key="frame" x="107" y="525" width="106" height="51"/>
+                                <rect key="frame" x="107" y="502" width="106" height="51"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="Start">
@@ -55,7 +55,7 @@
                             <constraint firstItem="a6g-bc-ClG" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="T81-nL-vxM"/>
                             <constraint firstItem="pHt-iT-9bs" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.509479" id="T9v-pJ-0fu"/>
                             <constraint firstItem="a6g-bc-ClG" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="79:422" id="YHV-4h-UqH"/>
-                            <constraint firstItem="a6g-bc-ClG" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="8" id="hDm-3D-lLX"/>
+                            <constraint firstItem="a6g-bc-ClG" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-15" id="hDm-3D-lLX"/>
                         </constraints>
                     </view>
                     <connections>
